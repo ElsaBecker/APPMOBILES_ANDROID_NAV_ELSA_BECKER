@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elsa.tp_applimobile_nav_activite_beckerelsa.ConnectActivity">
+
+    <TextView
+        android:id="@+id/affichetitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Création du compte"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/createname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nom d'utilisateur"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="91dp"
+        android:layout_above="@+id/createpass"
+        android:layout_alignStart="@+id/createpass"
+        android:layout_marginBottom="29dp" />
+
+    <EditText
+        android:id="@+id/createpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="166dp"
+        android:layout_above="@+id/createmail"
+        android:layout_alignStart="@+id/createmail"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:id="@+id/createmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="246dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp" />
+</RelativeLayout>
